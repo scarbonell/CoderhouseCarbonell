@@ -1,0 +1,634 @@
+body{
+	color: #1b1b1b;
+  	font-family: "Raleway",sans-serif;
+  	font-size: 14px;
+ 	margin: 0;
+  	padding: 0;
+  	box-sizing: border-box;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+img{ 
+	max-width: 100%; height: auto;
+}
+
+a,
+a:hover ,
+a:focus {
+	text-decoration: none;
+	outline: none;
+}
+
+.container {
+  max-width: 1170px;
+  width: auto;
+  margin: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.nav-menu a{
+	margin: 35px 0 0;
+}
+
+a, a:hover, a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+a{
+	color: #337ab7;
+}
+
+.nav-logo{
+	margin: 35px 0 0;
+}
+
+.nav-menu img{
+	max-width: 100%;
+    height: auto;
+}
+
+.nav-bar{
+	padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.nav-bar li{
+	margin: 0 0 0 35px;
+    padding: 46px 0;
+}
+
+.nav-bar li a{
+	color: #aaadb2;
+	font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.item-actual > a{
+	color: #233141!important;
+}
+
+.header{
+	background-image: url('indexbanner-bg3.jpg');
+    height: 528px;
+    background-size: cover;
+}
+
+.image-caption{
+	color: #fff;
+    font-family: "Raleway",sans-serif;
+    position: absolute;
+    top: 298px;
+    left: 160px;
+}
+
+.image-caption h1{
+	font-size: 48px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    line-height: 1.1;
+}
+
+.image-caption p{
+	color: #c2c5cc;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 36px;
+    margin: 0 0 10px;
+}
+
+.sec-search-dom {
+    width: 100%;
+    box-shadow: 0px 2px 5px 0px rgba(50, 50, 50, 0.09);
+    margin: -50px 0 0;
+}
+
+.sec-search-dom form {
+    position: relative
+}
+
+.input-search-dom {
+    border-radius: 0;
+    font-size: 18px;
+    padding: 36px 355px 36px 30px;
+    margin: 0;
+    border: 1px solid #e1e3e4;
+    box-shadow: inset 0px 5px 3px -4px rgba(50, 50, 50, 0.1);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.sec-search-dom form input[type="submit"] {
+    background: #00abf0 url("search.png") no-repeat scroll 31px 42px;
+    border: 0 none;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 39px 30px 40px 62px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.about-us{
+	padding: 120px 15px 80px;
+}
+
+.about-us article{
+    margin: 0 0 30px;
+    min-height: 100px;
+    padding: 0 30px;
+    width: 24.5%;
+    text-align: center;
+}
+
+.about-us article p{
+	line-height: 25px;
+    margin: 33px 0 0;
+}
+
+.about-us article h2{
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin: 10px 0 13px;
+    text-transform: uppercase;
+}
+
+.sec-servicios hgroup{
+ text-align: center;
+}
+
+.titulo{
+	font-size: 40px;
+    font-weight: 700;
+    margin: 0px 0 28px;
+    padding: 29px 0 0;
+}
+
+.subtitulo{
+	color: #7a7c80;
+    font-size: 18px;
+    margin: 0 0 73px;
+    font-weight: 400;
+}
+
+.serv-info-left, .serv-info-right{
+	padding: 50px 0 0;
+}
+
+.serv-info-left ul li{    
+	padding: 20px 70px 40px 0;
+	text-align: right;
+}
+
+.serv-info-right li, .serv-info-left li{
+    position: relative;
+}
+
+.serv-info-right li img, .serv-info-left li img{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.serv-info-right li img {
+    left: 0;
+}
+
+.serv-info-left ul li h4, .serv-info-right ul li h4{
+	font-weight: 700;
+    letter-spacing: 2px;
+    margin: 0 0 18px;
+    text-transform: uppercase;
+}
+
+.serv-info-left ul li p, .serv-info-right ul li p{
+	line-height: 25px;
+    margin: 0;
+}
+
+.serv-info-right li{
+	padding: 20px 0 40px 70px;
+}
+
+.iphone-img{
+    text-align: center;
+    width: 56%;
+    margin: 0 0 -80px;
+    padding: 0;
+}
+
+.sec-servicios ul img {
+
+}
+
+.sec-precios{
+	padding: 0 0 80px;
+	background: url("pricing-bg.jpg") no-repeat scroll top center;
+    background-size: 100% auto;
+}
+
+.sec-precios h1.titulo {
+    padding: 137px 0 0;
+}
+
+.sec-precios hgroup{
+    text-align: center;	
+}
+
+.box-precios{
+	box-shadow: 0px 0px 7px 0px rgba(50, 50, 50, 0.1);
+    text-align: center;
+    padding: 50px 28px 55px;
+    background: #fff;
+    margin: 15px 15px 30px;
+    flex:1;
+}
+
+.box-precios .precios-header > span {
+    color: inherit;
+       display: block;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin: 18px 0 38px;
+    text-transform: uppercase;
+}
+
+.box-precios span{
+        color: #7a7c80;
+    display: block;
+    font-family: 'Raleway';
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 35px;
+}
+
+.box-precios p{
+	border-bottom: 1px solid #eff1f2;
+    font-family: 'Open Sans';
+    font-size: 55px;
+    font-weight: bold;
+    line-height: 35px;
+    margin: 0;
+    padding: 0 0 27px;
+}
+
+.box-precios sup {
+    display: inline-block;
+    font-size: 22px;
+    margin: 18px 0 0;
+    vertical-align: top;
+    top: -.5em;
+    position: relative;
+    line-height: 0;
+}
+
+.box-precios table{
+    padding: 14px 12px;
+    border: 0 none;   
+}
+
+.box-precios tbody{
+	border-collapse: collapse;
+}
+
+.box-precios td{
+	border: 0 none;
+    padding: 7px 18px;
+}
+.small-pk > tbody > tr td:last-child {
+	color: #67d6ff;
+    font-weight: 500;
+}
+.normal-pk > tbody > tr td:last-child {
+	color: #f9d423;
+    font-weight: 500;
+}
+.big-pk > tbody > tr td:last-child {
+	color: #ff9359;
+    font-weight: 500;
+}
+.best-pk > tbody > tr td:last-child {    
+	color: #f75f40;
+    font-weight: 500;
+}
+
+.small-pk, .normal-pk, .big-pk, .best-pk {
+        width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.btn-select{
+	background: #00adf0;
+    border: 0 none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border-color: #2e6da4;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.footer-intro{
+	background: #233141 none repeat scroll 0 0;
+    padding: 83px 0 89px;
+    text-align: center;
+
+}
+
+.footer-intro p{
+	color: #fff;
+    font-size: 32px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.footer-intro p span{
+	color: #00aff1;
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footer-menu{
+	background: #151d26 none repeat scroll 0 0;
+    padding: 43px 0 45px;
+}
+
+.footer-menu p{
+	color: #c2c5cc;
+    margin: 0;
+}
+
+.footer-menu ul li{
+	margin: 0 0 0 35px;
+}
+
+.footer-menu ul li a{
+	color: #babdc4;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.center {
+    justify-content: center;
+}
+
+.pull-right {
+    margin-left: auto;
+}
+
+.img-contacto{
+    background-image: url('indexbanner-bg2.jpg');
+    height: 528px;
+    background-size: cover;
+}
+
+.contacto {
+    padding: 120px 15px 0px;
+}
+
+.contacto form h1{
+    text-align: center;
+}
+
+.contacto form h2{
+    text-align: center;
+}
+
+.text-input{
+    border: 1px solid #e1e3e4;
+    padding: 14px 18px;
+    border-radius: 3px;
+    box-shadow: inset 0px 5px 3px -4px rgba(50, 50, 50, 0.1);
+}
+
+.area-input{
+    border: 1px solid #e1e3e4;
+    padding: 14px 18px;
+    width: 100%;
+    border-radius: 3px;
+    box-shadow: inset 0px 5px 3px -4px rgba(50, 50, 50, 0.1);
+}
+
+.btn-contenedor {
+    text-align: center;
+    margin: 40px 0 120px;
+}
+
+.box-precios .btn-select{
+    padding: 12px 0px;
+    width: 100%;
+}
+
+.contactForm .btn-select{
+    padding: 16px 51px;
+    font-size: 13px;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.inputs {
+    flex:1;
+    padding-right: 15px;
+    justify-content: space-between;
+}
+.textarea {
+    flex:1;
+    padding-left: 15px;
+}
+
+.form-inputs {
+    height: 190px;
+}
+
+@media (max-width:961px) {
+
+    .nav-menu .flex{
+        flex-direction: column;
+    }
+    .nav-menu .nav-bar{
+        flex-direction:row;
+        margin: auto;
+    }
+
+    .header{
+        background-position: center;
+    }
+    .image-caption{
+        left: 20px;
+    }
+
+    .about-us .container .flex{
+        flex-wrap: wrap;
+    }
+    .about-us article{
+        width: 42%;
+    }
+    .about-us article h2{
+        font-size: 14px;
+    }
+
+    .serv-info-left, .serv-info-right{
+        margin: 0 10px 0 10px;
+    }
+
+    .serv-info-right li{
+        padding: 20px 0 40px 65px;
+    }
+    .serv-info-left li {
+        padding: 20px 65px 40px 0;
+    }
+
+    .sec-precios{
+        margin-top:-20px;
+    }
+    .sec-precios article{
+        flex-wrap:wrap;
+    }
+    .sec-precios .box-precios{
+        width: 40%;
+    }
+    .sec-precios .box-precios{
+        flex:auto;
+    }
+
+    .footer-menu .flex{
+        flex-direction:column;
+        text-align: center;
+    }
+    .footer-menu .flex ul{
+        margin:auto;
+        margin-top: 10px;
+        flex-direction:row;
+    }
+
+    .img-contacto{
+        background-position: center;
+    }
+}
+@media (max-width:767px) {
+    .nav-menu a{
+        margin: auto;
+        margin-top: 35px;
+    }
+
+    .image-caption{
+        top:260px;
+    }
+    .image-caption h1{
+        font-size:42px;
+    }
+    .image-caption p{
+        font-size: 15px;
+    }
+
+    .about-us article{
+        width: 40%;
+    }
+
+    .sec-servicios .container .flex{
+        flex-direction: column;
+    }
+    .serv-info-right li img, .serv-info-left li img {
+        left: 0;
+    }
+    .serv-info-right ul li, .serv-info-left ul li{
+        text-align: left;
+    }
+    .serv-info-left ul li h4,
+    .serv-info-left ul li p{
+        margin-left:70px;
+    }
+    .serv-info-right{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .iphone-img{
+        margin: auto;
+    }
+    .sec-precios h1.titulo {
+        padding: 80px 0 0;
+    }
+    .sec-precios .box-precios{
+        width:35%;
+    }
+
+    .contacto{
+        padding-top:100px;
+    }
+    .contacto .flex{
+        flex-direction: column;
+        flex:auto;
+        justifyed
+    }
+    .contacto .flex .textarea{
+        padding-left: 0;
+    }
+    .area-input{
+        width: auto;
+        height: 5em;
+    }
+    .inputs{
+        padding-right: 0;
+    }
+    .text-input{
+        margin-bottom: 15px;
+    }
+    .btn-contenedor{
+        margin: 130px 0 70px;
+    }
+}
+
+@media (max-width:500px) {
+    .image-caption{
+        top:220px;
+    }
+
+    .sec-search-dom form input[type="submit"] {
+        padding: 39px 10px 40px 50px;
+    }
+
+    .about-us article{
+        width: 100%;
+    }
+
+    .sec-precios h1.titulo {
+        padding: 20px 0 0;
+    }
+
+    .footer-intro p{
+        font-size: 20px;
+    }
+    .footer-intro p span{
+        font-size: 25px;
+    }
+}
